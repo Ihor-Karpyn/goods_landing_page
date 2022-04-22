@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=480">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Bags</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./helpers.css">
+  </head>
+  <body>
+    <main class="main">
+      <header class="header mb-4">
+        <a href="./index.html">
+          <img class="backButton" src="./icons/leftArrow.svg" alt="back-button">
+        </a>
+        <div class="languageWrapper">
+          <span class="fs-12 black">UA</span>
+          <span class="fs-12">&nbsp/&nbsp</span>
+<!--          Change to ru version-->
+          <a class="fs-12 gray" href="./good.html">RU</a>
+        </div>
+        <span class="headerTitle">BAGS</span>
+      </header>
+
+      <!--      Carousel-->
+      <section class="mb-4">
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide mb-2"
+             data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/goodsPhoto/good1/photo7.jpeg"
+                   class="d-block w-100"
+                   alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/goodsPhoto/good1/photo6.jpeg"
+                   class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/goodsPhoto/good1/photo8.jpeg"
+                   class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p class="h2 bold">Летняя блузка для женщин</p>
+        <p class="lh-small">
+          <small class="gray text-secondary">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+            consectetur deleniti ipsa iure. Amet cupiditate
+          </small>
+        </p>
+        <p></p>
+      </section>
+      <!-- BUY  -->
+      <section class="mb-5">
+        <div class="buyWrapper">
+          <div>
+            <p class="m-0 text-secondary lh-small">Цена</p>
+            <p class="m-0 h1 bold">₴699</p>
+          </div>
+          <a href="#form">
+            <button class="btn w-100 btn-lg btn-primary" type="button">
+              Оформити замовлення
+            </button>
+          </a>
+        </div>
+      </section>
+
+      <!--   cards   -->
+      <section class="benefits mb-5">
+        <div class="benefit">
+          <img class="benefitImg" src="./images/benefits/1.jpeg"
+               alt="clothes icon">
+          <p class="benefitText">Підкреслить Вашу жіночність</p>
+        </div>
+
+        <div class="benefit">
+          <img class="benefitImg" src="./images/benefits/2.jpeg"
+               alt="clothes icon">
+          <p class="benefitText">М'яка та якісна тканина</p>
+        </div>
+
+        <div class="benefit">
+          <img class="benefitImg" src="./images/benefits/3.jpeg"
+               alt="clothes icon">
+          <p class="benefitText">Українське виробництво🇺🇦</p>
+        </div>
+      </section>
+
+      <!--   cards   -->
+
+
+      <!--      Colors-->
+
+      <section class="mb-5 position-relative">
+        <h2 class="h2 choseColorTitle mb-4">
+          <span class="mainColor underLines">виберіть</span>
+          свій колір
+        </h2>
+        <img class="w-100" src="./images/choseColor.jpeg" alt="colors">
+      </section>
+
+      <section class="mb-5">
+        <p class="actionTitle">АКЦІЯ НА ВСЕ</p>
+        <p class="action">
+          1 + 1 = 3
+        </p>
+        <p class="actionTitleBtm">ПРИ ПОКУПЦІ ДВУХ ТОВАРІВ ТРЕТІЙ -
+          БЕЗКОШТОВНО!</p>
+
+        <a href="#form">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg w-100 position-relative"
+          >
+            Оформити замовлення
+            <span
+              class="position-absolute top-0 vsyLabel translate-middle badge rounded-pill bg-danger">
+            30% НА ЗСУ 🇺🇦
+          </span>
+          </button>
+        </a>
+      </section>
+
+      <section class="mb-4 position-relative">
+        <div class="info mb-3">
+          <img
+            src="./icons/textile.svg"
+            class="img-fluid rounded-start littleIcon"
+          >
+          <div class="ml-3">
+            <h5 class="card-title m-0">Склад:</h5>
+            <p class="card-text">
+              95% хлопок 5% спандекс
+            </p>
+          </div>
+        </div>
+        <div class="info mb-3">
+          <img
+            src="./icons/clothes_style.svg"
+            class="img-fluid rounded-start littleIcon"
+          >
+          <div class="ml-3">
+            <h5 class="card-title m-0">Стиль:</h5>
+            <p class="card-text">
+              Повсякденний
+            </p>
+          </div>
+        </div>
+        <div class="info mb-3">
+          <img
+            src="./icons/global.svg"
+            class="img-fluid rounded-start littleIcon"
+          >
+          <div class="ml-3">
+            <h5 class="card-title m-0">Виробник:</h5>
+            <p class="card-text">
+              Україна
+            </p>
+          </div>
+        </div>
+
+        <img
+          src="./images/madeInUkraine.jpeg"
+          alt="made in Ukraine"
+          class="madeInUkraine"
+        >
+
+      </section>
+
+      <section class="mb-5">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col" class="text-center">Обхват грудей</th>
+              <th scope="col" class="text-center">Обхват стегон</th>
+              <th scope="col" class="text-center">Довжина</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">S/M</th>
+              <td>90-102</td>
+              <td>90-106</td>
+              <td>71</td>
+            </tr>
+            <tr>
+              <th scope="row">L/XL</th>
+              <td>103-114</td>
+              <td>107-120</td>
+              <td>74</td>
+            </tr>
+            <tr>
+              <th scope="row">2XL/3XL</th>
+              <td>115-130</td>
+              <td>121-135</td>
+              <td>77</td>
+            </tr>
+            <tr>
+              <th scope="row">4XL/5XL</th>
+              <td>131-145</td>
+              <td>136-153</td>
+              <td>79</td>
+            </tr>
+            <tr>
+              <th scope="row">6XL/7XL</th>
+              <td>146-160</td>
+              <td>154-169</td>
+              <td>84</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="mb-5">
+        <h2 class="h2 choseColorTitle mb-5">
+          <span class="mainColor underLines">купляти у нас </span>
+          "безпечно та вигідно"
+        </h2>
+
+        <div class="buyBenefits">
+          <div class="buyBenefit">
+            <img
+              class="benefitImg mb-3"
+              src="./icons/rule.svg"
+              alt="clothes icon">
+            <p class="butBenefitText">
+              Наші менеджери підберуть допоможуть підібрати розмір
+            </p>
+          </div>
+
+          <div class="buyBenefit">
+            <img
+              class="benefitImg mb-3"
+              src="./icons/delivery.svg"
+              alt="clothes icon">
+            <p class="butBenefitText">
+              Оплати при отраманні у відділені пошти
+            </p>
+          </div>
+
+          <div class="buyBenefit">
+            <img
+              class="benefitImg mb-3"
+              src="./icons/user-svgrepo-com.svg"
+              alt="clothes icon">
+            <p class="butBenefitText">
+              Завжди готові безкоштовно обміняти товар якщо розмір вам не
+              підійшов
+            </p>
+          </div>
+
+          <div class="buyBenefit">
+            <img
+              class="benefitImg mb-3"
+              src="./icons/money-change-svgrepo-com.svg"
+              alt="clothes icon"
+            >
+            <p class="butBenefitText">
+              Гарантуємо швидке повернення коштів
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-5">
+        <a href="#form">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg w-100 position-relative"
+          >
+            Оформити замовлення
+            <span
+              class="position-absolute top-0 vsyLabel translate-middle badge rounded-pill bg-danger">
+            30% НА ЗСУ 🇺🇦
+          </span>
+          </button>
+        </a>
+      </section>
+
+      <section>
+        <h2 class="h3 choseColorTitle mb-5">
+          <span class="mainColor underLines">як зробити</span>
+          замовлення?
+        </h2>
+
+        <div class="buyBenefits">
+          <div class="buyBenefit">
+            <img
+              class="benefitImg mb-3"
+              src="./icons/pencil-svgrepo-com.svg"
+              alt="clothes icon">
+            <h5 class="card-title">ЗАЯВКА</h5>
+            <p class="butBenefitText">
+              Залишаєте заявку на сайті
+            </p>
+          </div>
+
+          <div class="buyBenefit">
+            <img
+              class="benefitImg mb-3"
+              src="./icons/call-svgrepo-com.svg"
+              alt="clothes icon">
+            <h5 class="card-title">ДЗВІНОК</h5>
+            <p class="butBenefitText">
+              Нащ менеджер уточнює замовлення
+            </p>
+          </div>
+
+          <div class="buyBenefit">
+            <img
+              class="benefitImg mb-3"
+              src="./icons/delivery-svgrepo-c.svg"
+              alt="clothes icon">
+            <h5 class="card-title">ВІДПРАВКА</h5>
+            <p class="butBenefitText">
+              Доставляємо ваш товар за 1-3 дні
+            </p>
+          </div>
+
+          <div class="buyBenefit">
+            <img
+              class="benefitImg mb-3"
+              src="./icons/post-office-postal-svgrepo-com.svg"
+              alt="clothes icon"
+            >
+            <h5 class="card-title">ОТРИМАННЯ</h5>
+            <p class="butBenefitText">
+              Оплачуєте при отриманні на пошті
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="mb-5" id="form"></div>
+      <section class="mb-5">
+        <!--      Carousel-->
+        <section class="mb-2">
+          <div id="carouselExampleIndicators2" class="carousel carousel-dark slide mb-2"
+               data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators2"
+                      data-bs-slide-to="0" class="active" aria-current="true"
+                      aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2"
+                      data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2"
+                      data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/goodsPhoto/good1/photo7.jpeg"
+                     class="d-block w-100"
+                     alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/goodsPhoto/good1/photo6.jpeg"
+                     class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/goodsPhoto/good1/photo8.jpeg"
+                     class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleIndicators2"
+                    data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"
+                    aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleIndicators2"
+                    data-bs-slide="next">
+              <span class="carousel-control-next-icon"
+                    aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <!--      Carousel-->
+
+        <!--   cards   -->
+        <section class="benefits mb-1">
+          <div class="benefit">
+            <img class="benefitImg" src="./images/benefits/1.jpeg"
+                 alt="clothes icon">
+            <p class="benefitText">Підкреслить Вашу жіночність</p>
+          </div>
+
+          <div class="benefit">
+            <img class="benefitImg" src="./images/benefits/2.jpeg"
+                 alt="clothes icon">
+            <p class="benefitText">М'яка та якісна тканина</p>
+          </div>
+
+          <div class="benefit">
+            <img class="benefitImg" src="./images/benefits/3.jpeg"
+                 alt="clothes icon">
+            <p class="benefitText">Українське виробництво🇺🇦</p>
+          </div>
+        </section>
+
+        <!--   cards   -->
+
+        <!--        Form-->
+
+        <form
+          id="order_form"
+          action="form-ok.php"
+          method="post"
+          onsubmit="if(this.name.value==''){alert('Введите Ваше ФИО!');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;"
+        >
+          <div class="form-floating form-wrapper mb-3">
+            <input
+              type="text"
+              class="form-control formInput"
+              id="name"
+              placeholder="name@example.com"
+              required
+            >
+            <label for="name" class="inputLabel">
+              Ім'я
+            </label>
+            <img src="./icons/user.svg" width="25" class="inputIcon">
+          </div>
+          <div class="form-floating form-wrapper mb-4">
+            <input
+              type="tel"
+              class="form-control formInput"
+              id="phone"
+              placeholder="name@example.com"
+              required
+            >
+            <label for="phone" class="inputLabel">
+              Номер телефону
+            </label>
+            <img src="./icons/phone.svg" width="25" class="inputIcon">
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary btn-lg w-100 position-relative"
+          >
+            Оформити замовлення
+            <span
+              class="position-absolute top-0 vsyLabel translate-middle badge rounded-pill bg-danger">
+            30% НА ЗСУ 🇺🇦
+          </span>
+          </button>
+        </form>
+        <!--        form-->
+      </section>
+
+      <section>
+        <h2 class="h3 choseColorTitle">
+          <span class="underLines">
+            відгуки
+          </span>
+          <span class="mainColor">покупців</span>
+        </h2>
+
+        <!--        Carousel reviews-->
+        <div id="carouselExampleControls" class="carousel carousel-dark slide"
+             data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/reviews/rev1.jpeg"
+                class="d-block w-100"
+                alt="reviews"
+              >
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/reviews/rev2.jpeg"
+                class="d-block w-100"
+                alt="reviews"
+              >
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/reviews/rev3.jpeg"
+                class="d-block w-100"
+                alt="reviews"
+              >
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/reviews/rev4.jpeg"
+                class="d-block w-100"
+                alt="reviews"
+              >
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/reviews/rev5.jpeg"
+                class="d-block w-100"
+                alt="reviews"
+              >
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/reviews/rev6.jpeg"
+                class="d-block w-100"
+                alt="reviews"
+              >
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/reviews/rev7.jpeg"
+                class="d-block w-100"
+                alt="reviews"
+              >
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/reviews/rev8.jpeg"
+                class="d-block w-100"
+                alt="reviews"
+              >
+            </div>
+          </div>
+        </div>
+        <!--        Carousel reviews-->
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p class="mb-1 fs-12">
+        © ТОВ «ProShop» – ЄГРПОУ 74556147 м.Львів, вул. Валова, 19
+      </p>
+      <a class="fs-12" target="_blank" href="./politicUa.html">Private policy</a>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
